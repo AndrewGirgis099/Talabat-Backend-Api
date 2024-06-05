@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Route Backend\\ENG_MAHA AHMED\\API\\S8\\API08\\Talabat.Route.Solution\\Talabat.Repository\\Talabat.Repository.csproj": {}
+  },
+  "projects": {
+    "F:\\Route Backend\\ENG_MAHA AHMED\\API\\S8\\API08\\Talabat.Route.Solution\\Talabat.Core\\Talabat.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Route Backend\\ENG_MAHA AHMED\\API\\S8\\API08\\Talabat.Route.Solution\\Talabat.Core\\Talabat.Core.csproj",
+        "projectName": "Talabat.Core",
+        "projectPath": "F:\\Route Backend\\ENG_MAHA AHMED\\API\\S8\\API08\\Talabat.Route.Solution\\Talabat.Core\\Talabat.Core.csproj",
+        "packagesPath": "C:\\Users\\ok\\.nuget\\packages\\",
+        "outputPath": "F:\\Route Backend\\ENG_MAHA AHMED\\API\\S8\\API08\\Talabat.Route.Solution\\Talabat.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.7.33, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[44.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Route Backend\\ENG_MAHA AHMED\\API\\S8\\API08\\Talabat.Route.Solution\\Talabat.Repository\\Talabat.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Route Backend\\ENG_MAHA AHMED\\API\\S8\\API08\\Talabat.Route.Solution\\Talabat.Repository\\Talabat.Repository.csproj",
+        "projectName": "Talabat.Repository",
+        "projectPath": "F:\\Route Backend\\ENG_MAHA AHMED\\API\\S8\\API08\\Talabat.Route.Solution\\Talabat.Repository\\Talabat.Repository.csproj",
+        "packagesPath": "C:\\Users\\ok\\.nuget\\packages\\",
+        "outputPath": "F:\\Route Backend\\ENG_MAHA AHMED\\API\\S8\\API08\\Talabat.Route.Solution\\Talabat.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Route Backend\\ENG_MAHA AHMED\\API\\S8\\API08\\Talabat.Route.Solution\\Talabat.Core\\Talabat.Core.csproj": {
+                "projectPath": "F:\\Route Backend\\ENG_MAHA AHMED\\API\\S8\\API08\\Talabat.Route.Solution\\Talabat.Core\\Talabat.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
